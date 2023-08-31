@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="icon" href="img/logoRunnerrs.png" type="image/x-icon">
+    <link rel="icon" href="img/" type="image/x-icon">
 
     <title>Burrata - Напитки</title>
     <style>
@@ -35,12 +35,49 @@
             /* center the card horizontally */
             padding: 20px;
             /* add some padding to the card */
-            border-radius: 20px;
 
 
             margin-bottom: 20px;
             /* add a bottom margin of 20px */
-            box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 7px 7px 22px 14px rgba(0, 0, 0, 0);
+            border: 1px solid #ccc;
+            /* Променяме границата на .card */
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+            /* Променяме сянката на .card */
+            transition: transform 0.5s, box-shadow 0.2s;
+            /* Добавяме анимация при hover */
+
+            border-radius: 20px 0 0 0px;
+            /* Закръглени ъгли на първия ляв ъгъл */
+
+            overflow: hidden;
+            /* За да скриете част от логото с размазване */
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+            /* Увеличаваме малко картата при ховър */
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            /* Променяме сянката при ховър */
+            border-radius: 20px 0 20px 20px;
+            /* Закръглени ъгли на горния ляв и долния десен ъгъл при ховър */
+            transition: 0.5s;
+        }
+
+
+        .logo {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .logo img {
+            max-width: 100px;
+            filter: blur(5px);
+            /* Ефект на размазване (blur) */
+            transition: filter 0.2s;
+        }
+
+        .card:hover .logo img {
+            filter: blur(0);
         }
 
         @media screen and (max-width: 600px) {
@@ -157,10 +194,10 @@
             border: none;
             /* Remove the border */
             border-radius: 4px;
-            font-size: 16px;
+            font-size: 36px;
             background-color: transparent;
             /* Keep the background transparent */
-            transition: background-color 0.3s ease-in-out;
+            transition: background-color 0.8s ease-in-out;
             /* Add a transition for hover effect */
         }
 
@@ -179,6 +216,218 @@
             font-size: 22px;
             color: #66afe9;
         }
+
+
+
+
+
+
+
+        .logo-Zero {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .logo-Zero img {
+            max-width: 100px;
+            filter: blur(5px);
+            /* Ефект на размазване (blur) */
+            transition: filter 0.2s;
+        }
+
+        .card:hover .logo-Zero img {
+            filter: blur(0);
+        }
+
+
+        .logo-Fanta {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .logo-Fanta img {
+            max-width: 100px;
+            filter: blur(5px);
+            /* Ефект на размазване (blur) */
+            transition: filter 0.2s;
+        }
+
+        .card:hover .logo-Fanta img {
+            filter: blur(0);
+        }
+
+
+
+
+        .logo-Sprite {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .logo-Sprite img {
+            max-width: 100px;
+            filter: blur(5px);
+            /* Ефект на размазване (blur) */
+            transition: filter 0.2s;
+        }
+
+        .card:hover .logo-Sprite img {
+            filter: blur(0);
+        }
+
+
+
+
+        .logo-schweppes {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .logo-schweppes img {
+            max-width: 100px;
+            filter: blur(5px);
+            /* Ефект на размазване (blur) */
+            transition: filter 0.2s;
+        }
+
+        .card:hover .logo-schweppes img {
+            filter: blur(0);
+        }
+
+
+
+
+        .logo-cappy {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .logo-cappy img {
+            max-width: 100px;
+            filter: blur(5px);
+            /* Ефект на размазване (blur) */
+            transition: filter 0.2s;
+        }
+
+        .card:hover .logo-cappy img {
+            filter: blur(0);
+        }
+
+
+        .logo-fustea {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .logo-fustea img {
+            max-width: 100px;
+            filter: blur(5px);
+            /* Ефект на размазване (blur) */
+            transition: filter 0.2s;
+        }
+
+        .card:hover .logo-fustea img {
+            filter: blur(0);
+        }
+
+
+
+
+
+
+
+
+
+
+
+        .logo-becks {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .logo-becks img {
+            max-width: 100px;
+            filter: blur(5px);
+            /* Ефект на размазване (blur) */
+            transition: filter 0.2s;
+        }
+
+        .card:hover .logo-becks img {
+            filter: blur(0);
+        }
+
+
+        .logo-leffe {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .logo-leffe img {
+            max-width: 100px;
+            filter: blur(5px);
+            /* Ефект на размазване (blur) */
+            transition: filter 0.2s;
+        }
+
+        .card:hover .logo-leffe img {
+            filter: blur(0);
+        }
+
+
+
+        .logo-leffe {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .logo-leffe img {
+            max-width: 100px;
+            filter: blur(5px);
+            /* Ефект на размазване (blur) */
+            transition: filter 0.2s;
+        }
+
+        .card:hover .logo-leffe img {
+            filter: blur(0);
+        }
+
+
+
+        .logo-stela {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .logo-stela img {
+            max-width: 100px;
+            filter: blur(5px);
+            /* Ефект на размазване (blur) */
+            transition: filter 0.2s;
+        }
+
+        .card:hover .logo-stela img {
+            filter: blur(0);
+        }
+
+
+
+        .logo-hug {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .logo-hug img {
+            max-width: 100px;
+            filter: blur(5px);
+            /* Ефект на размазване (blur) */
+            transition: filter 0.2s;
+        }
+
+        .card:hover .logo-hug img {
+            filter: blur(0);
+        }
+
+
     </style>
 </head>
 
@@ -186,6 +435,9 @@
     <h1>Напитки</h1>
 
     <div class="card">
+        <div class="logo">
+            <img src="img/Coca-Cola-Logo.png" alt="Cola">
+        </div>
         <h2>Coca-Cola</h2>
 
         <div class="count">
@@ -200,6 +452,9 @@
     </div>
 
     <div class="card">
+        <div class="logo-Zero">
+            <img src="img/Coca-Cola-Logo-Zero.png" alt="Cola">
+        </div>
         <h2>Coca-Cola Zero</h2>
         <div class="count">
             <button class="minus-btn">-</button>
@@ -213,6 +468,9 @@
     </div>
 
     <div class="card">
+        <div class="logo-Fanta">
+            <img src="img/Fanta-Logo.png" alt="Cola">
+        </div>
         <h2>Fanta</h2>
         <div class="count">
             <button class="minus-btn">-</button>
@@ -227,6 +485,9 @@
 
 
     <div class="card">
+        <div class="logo-Sprite">
+            <img src="img/Sprite-Logo.png" alt="Cola">
+        </div>
         <h2>Sprite</h2>
         <div class="count">
             <button class="minus-btn">-</button>
@@ -241,6 +502,9 @@
 
 
     <div class="card">
+        <div class="logo-schweppes">
+            <img src="img/Schweppes.png" alt="Cola">
+        </div>
         <h2>Schweppes Тоник</h2>
         <div class="count">
             <button class="minus-btn">-</button>
@@ -255,6 +519,9 @@
 
 
     <div class="card">
+        <div class="logo-cappy">
+            <img src="img/Cappy-logo.png" alt="Cola">
+        </div>
         <h2>Cappy портокал</h2>
         <div class="count">
             <button class="minus-btn">-</button>
@@ -270,6 +537,9 @@
 
 
     <div class="card">
+        <div class="logo-cappy">
+            <img src="img/Cappy-logo.png" alt="Cola">
+        </div>
         <h2>Cappy праскова</h2>
         <div class="count">
             <button class="minus-btn">-</button>
@@ -284,6 +554,9 @@
 
 
     <div class="card">
+        <div class="logo-cappy">
+            <img src="img/Cappy-logo.png" alt="Cola">
+        </div>
         <h2>Cappy ябълка</h2>
         <div class="count">
             <button class="minus-btn">-</button>
@@ -297,6 +570,9 @@
     </div>
 
     <div class="card">
+        <div class="logo-cappy">
+            <img src="img/Cappy-logo.png" alt="Cola">
+        </div>
         <h2>Cappy вишна</h2>
         <div class="count">
             <button class="minus-btn">-</button>
@@ -311,6 +587,9 @@
 
 
     <div class="card">
+        <div class="logo-fustea">
+            <img src="img/Fustea.png" alt="Cola">
+        </div>
         <h2>Fustea праскова</h2>
         <div class="count">
             <button class="minus-btn">-</button>
@@ -326,6 +605,9 @@
 
 
     <div class="card">
+        <div class="logo-fustea">
+            <img src="img/Fustea.png" alt="Cola">
+        </div>
         <h2>Fustea лимон</h2>
         <div class="count">
             <button class="minus-btn">-</button>
@@ -340,6 +622,9 @@
 
 
     <div class="card">
+        <div class="logo-schweppes">
+            <img src="img/Schweppes.png" alt="Cola">
+        </div>
         <h2>Schweppes сода</h2>
         <div class="count">
             <button class="minus-btn">-</button>
@@ -390,6 +675,9 @@
 
 
     <div class="card">
+        <div class="logo-becks">
+            <img src="img/Becks.png" alt="Cola">
+        </div>
         <h2>Becks</h2>
         <div class="count">
             <button class="minus-btn">-</button>
@@ -403,6 +691,9 @@
     </div>
 
     <div class="card">
+        <div class="logo-leffe">
+            <img src="img/Leffe.png" alt="Cola">
+        </div>
         <h2>Leffe светло</h2>
         <div class="count">
             <button class="minus-btn">-</button>
@@ -416,6 +707,9 @@
     </div>
 
     <div class="card">
+        <div class="logo-leffe">
+            <img src="img/Leffe.png" alt="Cola">
+        </div>
         <h2>Leffe тъмно</h2>
         <div class="count">
             <button class="minus-btn">-</button>
@@ -430,6 +724,9 @@
 
 
     <div class="card">
+        <div class="logo-stela">
+            <img src="img/stela.png" alt="Cola">
+        </div>
         <h2>Stela Artoa</h2>
         <div class="count">
             <button class="minus-btn">-</button>
@@ -443,6 +740,9 @@
     </div>
 
     <div class="card">
+        <div class="logo-stela">
+            <img src="img/stela.png" alt="Cola">
+        </div>
         <h2> Stela 0%</h2>
         <div class="count">
             <button class="minus-btn">-</button>
@@ -456,6 +756,9 @@
     </div>
 
     <div class="card">
+        <div class="logo-hug">
+            <img src="img/Hoegaarden.png" alt="Cola">
+        </div>
         <h2>Hoegaarden</h2>
         <div class="count">
             <button class="minus-btn">-</button>
@@ -516,17 +819,26 @@
 
         function updateDrinkCount() {
             drinkCounts.forEach((drinkCount, index) => {
-                const drinkName = drinkData[index].name;
                 const drinkCountValue = drinkData[index].count;
-                const boxCountValue = drinkData[index].box;
+                const pluralForm = drinkCountValue === 1 ? 'бройка' : 'бройки';
 
                 drinkCount.innerText = drinkCountValue;
+
                 if (drinkCountValue >= 24) {
                     const boxCount = Math.floor(drinkCountValue / 24);
-                    boxCounts[index].innerText = `${boxCount} Каси/а ${drinkCountValue - boxCount * 24 === 0 ? '' : '+ ' + (drinkCountValue - boxCount * 24)}`;
+                    const remainder = drinkCountValue % 24;
+
+                    if (remainder === 0) {
+                        boxCounts[index].innerText = `${boxCount} каси/а`;
+                    } else {
+                        boxCounts[index].innerText = `${boxCount} каси/а + ${remainder} ${remainder === 1 ? 'бройка' : 'бройки'}`;
+                    }
+
                     drinkData[index].box = boxCount;
+                } else if (drinkCountValue > 0) {
+                    boxCounts[index].innerText = `${drinkCountValue} ${pluralForm}`;
                 } else {
-                    boxCounts[index].innerText = `${boxCountValue} Каси/а`;
+                    boxCounts[index].innerText = "0 Каси/а";
                 }
             });
         }
@@ -538,27 +850,44 @@
                 const inputValue = parseInt(drinkInput.value) || 0;
                 drinkData[index].count = inputValue;
                 updateDrinkCount();
-                boxCounts[index].textContent = calculateBoxCount(drinkData[index].count);
+                const currentValue = drinkData[index].count;
+                if (currentValue >= 24) {
+                    const boxCount = Math.floor(currentValue / 24);
+                    const remainder = currentValue % 24;
+                    if (remainder === 0) {
+                        boxCounts[index].innerText = `${boxCount} каси/а`;
+                    } else {
+                        boxCounts[index].innerText = `${boxCount} каси/а + ${remainder} бройки`;
+                    }
+                } else {
+                    boxCounts[index].textContent = `${currentValue} бройки`;
+                }
             });
         });
+
 
 
         minusBtns.forEach((minusBtn, index) => {
             minusBtn.addEventListener('click', () => {
                 if (drinkData[index].count > 0) {
                     drinkData[index].count--;
-                    if (drinkData[index].count % 24 === 22 && drinkData[index].box > 0) {
-                        drinkData[index].box--;
-                    } if (drinkData[index].count === 0 && drinkData[index].box === 0) {
-                        drinkInputs[index].value = "";
-                        boxCounts[index].textContent = "Количество Каси/а";
+                    const currentValue = drinkData[index].count;
+                    if (currentValue >= 24) {
+                        const boxCount = Math.floor(currentValue / 24);
+                        const remainder = currentValue % 24;
+                        if (remainder === 0) {
+                            boxCounts[index].innerText = `${boxCount} каси/а`;
+                        } else {
+                            boxCounts[index].innerText = `${boxCount} каси/а + ${remainder} бройки`;
+                        }
+                    } else {
+                        boxCounts[index].textContent = `${currentValue} бройки`;
                     }
                     updateDrinkCount();
                     drinkInputs[index].value = drinkData[index].count;
-                    boxCounts[index].textContent = calculateBoxCount(drinkData[index].count);
                 } else {
                     drinkInputs[index].value = "";
-                    boxCounts[index].textContent = "Количество Каси/а";
+                    boxCounts[index].textContent = "0 Каси/а";
                 }
             });
         });
@@ -566,11 +895,23 @@
         plusBtns.forEach((plusBtn, index) => {
             plusBtn.addEventListener('click', () => {
                 drinkData[index].count++;
+                const currentValue = drinkData[index].count;
+                if (currentValue >= 24) {
+                    const boxCount = Math.floor(currentValue / 24);
+                    const remainder = currentValue % 24;
+                    if (remainder === 0) {
+                        boxCounts[index].innerText = `${boxCount} каси/а`;
+                    } else {
+                        boxCounts[index].innerText = `${boxCount} каси/а + ${remainder} бройки`;
+                    }
+                } else {
+                    boxCounts[index].textContent = `${currentValue} бройки`;
+                }
                 updateDrinkCount();
                 drinkInputs[index].value = drinkData[index].count;
-                boxCounts[index].textContent = calculateBoxCount(drinkData[index].count);
             });
         });
+
 
         function calculateBoxCount(drinkCount) {
             const boxCount = Math.floor(drinkCount / 24);
